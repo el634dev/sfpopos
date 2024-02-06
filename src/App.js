@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 // Import title
 import Title from './Title.js';
+// Import POPOSList
+import POPOSList from './POPOSList.js';
 
 function App() {
   return (
    <div className='App'>
       <Title />
-      <img src={logo} alt=''/>
+      <POPOSList />
    </div>
   );
 }
