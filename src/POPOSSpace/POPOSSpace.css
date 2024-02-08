@@ -1,0 +1,15 @@
+/* Styling the POPOSSpace Component */
+.POPOSSpace {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin: 1rem 0;
+    font-family: 'Helvetica', -apple-system, sans-serif;
+}
+
+/* Styling the images contained within POPOSSpace */
+.POPOSSpace_image {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}

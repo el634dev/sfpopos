@@ -1,10 +1,11 @@
 // Display a list of spaces 
-import POPOSSpace from "./POPOSSpace";
 import React from "react";
+import POPOSSpace from "../POPOSSpace/POPOSSpace";
+import './POPOSList.css';
 
 function POPOSList() {
     return (
-        <div>
+        <div className="POPOSList">
             <POPOSSpace 
             /* 50 California */
                 name="50 California Street"

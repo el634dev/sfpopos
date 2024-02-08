@@ -1,0 +1,10 @@
+/* Styling the Footer Component */
+.Footer {
+    text-align: center;
+}
+
+.Footer_Name,
+.Footer_Year {
+    font-size: 0.9rem;
+    font-family: 'Helvetica', -apple-system, sans-serif;
+}
