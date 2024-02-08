@@ -13,3 +13,16 @@
     height: auto;
     border-radius: 5%;
 }
+
+/* Styling the addresses contained within POPOSSpace */
+.POPOSSpace_address {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styling the hours contained within POPOSSpace */
+.POPOSSpace_hours {
+    font-size: 0.9rem;
+    font-style: italic;
+}
