@@ -4,7 +4,7 @@
 import React from "react";
 import { useParams } from 'react-router';
 // Importing data from JSON file
-import data from '../sfpopos-data.json';
+import data from '../../sfpopos-data.json';
 
 function POPOSDetails(props) {
     const params = useParams();

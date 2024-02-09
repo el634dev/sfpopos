@@ -4,10 +4,10 @@ import React from 'react';
 import { createRoot } from 'react-dom/client'
 // Import styling and components
 import './index.css';
-import App from './App';
-import POPOSList from './POPOSList/POPOSList';
-import About from './About';
-import POPOSDetails from './POPOSDetails/POPOSDdetails.js';
+import App from './components/App/App.js';
+import POPOSList from './components/POPOSList/POPOSList.js';
+import About from './components/About/About.js';
+import POPOSDetails from './components/POPOSDetails/POPOSDdetails.js';
 // Route and Web Vitals imports
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
