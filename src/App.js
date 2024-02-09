@@ -1,19 +1,18 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom'
+// App component
 import './App.css';
 // Import title
-// App component
 import Title from './Title/Title.js';
-// Import POPOSList
-import POPOSList from './POPOSList/POPOSList.js';
-// Import footer
-import Footer from './Footer/Footer.js';
+// Import POPOSDetails
+// eslint-disable-next-line
+import POPOSDetails from './POPOSDetails/POPOSDdetails.js';
 
 function App() {
   return (
    <div className='App'>
       <Title />
-      <POPOSList />
-      <Footer />
+      <Outlet />
    </div>
   );
 }

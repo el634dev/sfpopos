@@ -1,23 +1,33 @@
 // Display information about a public space
 import React from "react";
+import { Link } from 'react-router-dom';
 // Import styling
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-    const { name, image, address, description, hours } = props;
+    const { name, image, address, hours, id } = props;
 
     return (
         <div className="POPOSSpace">
-            <h1 className="POPOSSpace_name">{name}</h1>
-            <img src={`${process.env.PUBLIC_URL}images/${image}`} 
-                alt={description}
-                width="300" 
-                height="300" 
-                className="POPOSSpace_image"
-            />
+            <h1 className="POPOSSpace_name">
+                <Link to={`/details/${id}`}>
+                    {name}
+                </Link>
+            </h1>
+            {/* Image Link */}
+            <Link to={`/details/${id}`}>
+                    <img src={`${process.env.PUBLIC_URL}images/${image}`} 
+                        alt={name}
+                        width="300" 
+                        height="300" 
+                        className="POPOSSpace_image"
+                    />
+            </Link>
+           {/****************/}
             <div className="POPOSSpace_address">
                 { address }
             </div>
+            {/* Hours */}
             <div className="POPOSSpace_hours">
                 { hours }
             </div>

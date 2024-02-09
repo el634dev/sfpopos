@@ -8,10 +8,11 @@ import './POPOSList.css';
 
 function POPOSList() {
     // Add properties using deconstruction
-    const spaces = data.map(({ title, address, images, hours } ) => {
+    const spaces = data.map(({ title, address, images, hours }, i ) => {
         return (
             <POPOSSpace 
                 //Prop for the Virtual DOM
+                id={i}
                 key={title}
                 name={title}
                 address={address}
