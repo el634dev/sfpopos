@@ -1,9 +1,18 @@
 /* Styling the POPOSList Component */
 
 .POPOSList {
-    width: calc(100% - 80px);
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    grid-gap: 2em;
+    max-width: 1200px;
+    width: calc(100% - 80px);
+    margin: auto;
+    padding: 2em;
+}
+
+/* Smaller screens(mobile) and tablets */
+@media only screen and (max-width: 700px) {
+    .POPOSList {
+        grid-template-columns: 1fr;
+    }
 }
