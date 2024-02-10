@@ -7,11 +7,10 @@ import './index.css';
 import App from './components/App/App.js';
 import POPOSList from './components/POPOSList/POPOSList.js';
 import About from './components/About/About.js';
-import POPOSDetails from './components/POPOSDetails/POPOSDdetails.js';
+// import POPOSDetails from './components/POPOSDetails/POPOSDdetails.js';
 // Route and Web Vitals imports
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-
 
 // --------------------------------
 const rootElement = document.getElementById('root');

@@ -1,7 +1,10 @@
 /* Styling the POPOSSpace Component */
-.POPOSSpace {
+.POPOSSpace .POPOSSpace-Title {
     width: 100%;
     text-align: center;
+    position: relative;
+    color: #000;
+    text-decoration: none;
     font-size: 1em;
     margin: 1rem 0;
     font-family: 'Helvetica', -apple-system, sans-serif;
@@ -12,6 +15,19 @@
     width: 100%;
     height: auto;
     border-radius: 5%;
+}
+
+/* Styling the h1 tag contained within POPOSSpace */
+.POPOSSpace h1 {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1rem;
+    text-align: left;
 }
 
 /* Styling the addresses contained within POPOSSpace */

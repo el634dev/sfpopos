@@ -9,8 +9,8 @@ function POPOSSpace(props) {
 
     return (
         <div className="POPOSSpace">
-            <h1 className="POPOSSpace_name">
-                <Link to={`/details/${id}`}>
+            <h1>
+                <Link className="POPOSSpace-Title" to={`/details/${id}`}>
                     {name}
                 </Link>
             </h1>
