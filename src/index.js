@@ -21,16 +21,13 @@ const root = createRoot(rootElement);
 root.render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />} />
-      {/************/}
-      <Route path="/" element={<POPOSList />} />
-      {/************/}
-      <Route path="about" element={<About />} />
-      {/************/}
-      <Route path="/details/:id" element={<POPOSDetails />} />
+      <Route path="/" element={<App />}>
+        <Route path="/" element={<POPOSList />} />
+        <Route path="about" element={<About />} />
+      </Route>
     </Routes>
   </Router>,
-  // document.getElementById('root')
+  //document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
