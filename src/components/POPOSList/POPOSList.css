@@ -1,5 +1,4 @@
 /* Styling the POPOSList Component */
-
 .POPOSList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,6 +7,30 @@
     width: calc(100% - 80px);
     margin: auto;
     padding: 2em;
+}
+
+/* POPOSList Form */
+.POPOSList form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.POPOSList form input, .POPOSList form button {
+    padding: 1em;
+    margin: 0;
+    border: 1px solid;
+    font-size: 1rem;
+}
+
+.POPOSList form input {
+    flex: 1;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+.POPOSList form button {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
 /* Smaller screens(mobile) and tablets */
