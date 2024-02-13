@@ -6,13 +6,13 @@ function RandomSpace() {
     const navigate = useNavigate();
 
     return (
-        <button
-            className="RandomSpace-Button"
+        <button 
+            className="RandomSpace"
             onClick={(e) => {
-                const id = Math.floor(Math.random() * data.length);
-                navigate(`/details/${id}`)}}
-        >Show a random space</button>
+                const id = Math.floor(Math.random() * data.length)
+                navigate(`/details/${id}`)
+            }}>Show a random space</button>
     )
 }
 
-export default RandomSpace
+export default RandomSpace;

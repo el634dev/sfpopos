@@ -1,7 +1,9 @@
 .RandomSpace-Button {
     padding: 0.4em;
     margin: 0;
-    border: none;
+    color: #eed;
+    border: 2px solid #eee;
+    background: none;
     font-size: 0.9rem;
     border-radius: 0.5em;
 }

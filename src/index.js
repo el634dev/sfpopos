@@ -7,7 +7,7 @@ import './index.css';
 import App from './components/App/App.js';
 import POPOSList from './components/POPOSList/POPOSList.js';
 import About from './components/About/About.js';
-// import POPOSDetails from './components/POPOSDetails/POPOSDdetails.js';
+import POPOSDetails from './components/POPOSDetails/POPOSDdetails.js';
 // Route and Web Vitals imports
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -23,6 +23,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
+        <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
   </Router>,

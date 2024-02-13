@@ -29,6 +29,8 @@
 }
 
 .POPOSList form button {
+    color: #eee;
+    background-color: black;
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
