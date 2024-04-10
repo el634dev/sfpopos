@@ -1,0 +1,33 @@
+/* All devices */
+.POPOSFeatureList {
+    display: flex;
+    flex-direction: row;
+    /* width: fit-content */
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 720px) {
+    .POPOSFeatureList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+    .POPOSFeatureList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .POPOSFeatureList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
