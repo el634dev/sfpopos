@@ -1,0 +1,36 @@
+h3 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    margin-top: 5px;
+    padding: 0.30rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* Join Button */
+button {
+    border: 0;
+    margin: 0;
+    color: #eed;
+    padding: 0.65rem;
+    background-color: #075670;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+}
+
+button:hover {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
