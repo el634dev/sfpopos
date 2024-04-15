@@ -3,11 +3,11 @@
     margin: 0;
     color: #eed;
     border: none;
-    background-color: #008CBA;
+    background-color: #005470;
     font-size: 0.9rem;
     border-radius: 0.4rem;
 }
 
 .RandomSpace:hover {
-    box-shadow: 2px 2px 3px #008CBA;
+    box-shadow: 2px 2px 3px #005470;
 }
