@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## San Francisco Public Open Spaces (SFPOPOS)
+> Recreating the SFPOPOS site using responsive design pratices and React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.react.dev)
+![Issues](https://img.shields.io/github/issues/el634dev/sfpopos.svg)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-## Available Scripts
+> Web Application where users can search for different public spaces in San Francisco and see the details for each public space
+>> Live demo [_here_](https://sfpopos-one.vercel.app/#/).
 
-In the project directory, you can run:
+## Table of Contents
+- [Built Using](#built-using)
+- [Getting Started](#getting-started)
+- [Screenshot](#screenshot)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Deployment](#deployment)
+- [Author](#author)
 
-### `npm start`
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+What things you need to install the software and how to install them
+- First you need a code editor of your choice, I use [VSCode](https://code.visualstudio.com/) by Microsoft then you will need the current version of [Node](https://nodejs.org/en) to get your React app created and running on your local server.
+- After you need to choose between Vite or Create React App if you are going to code from scratch, if not then just run `npm run dev` in your terminal to get your project showing after changing the directory to your project folder(should be the same name as the one you used to create the app) after running `npm install`.
+  - a. If you choose Vite then this article can help with [getting started](https://www.makeuseof.com/set-up-react-app-with-vite/)
+  - b. If you choose Create React App then this doc page can [help](https://create-react-app.dev/docs/getting-started/)
+- The rest are dependencies and those require either `npm i` or `npm install`, this page can [help](https://www.npmjs.com/) and you can search the package you need
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshot
+<img width="1252" alt="Screenshot 2024-04-16 at 1 42 26 PM" src="https://github.com/el634dev/sfpopos/assets/84924260/85a65e1f-b7f3-449c-ad7f-a3f5f745cfd4">
 
-### `npm test`
+## Usage
+How does one go about using it?
+>
+`User can navigate to landing page and see a input bar to search for different public spaces`
+>
+`User can see a navbar with two buttons to sign up/see a random space and two links to navigate back to the home page/see an about page`
+>
+`User can see a property and the details associated with that public space such as a washroom`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Status
+Project is: _completed_
 
-### `npm run build`
+## Deployment
+To deploy this project you could run `npm run build`, this creates a version of your project that is bundled and ready for production. However I used Vercel, a frontend deployment tool that is free to help deploy this project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup on Vercel
+- To create an account sign up using a third-party account such as GitHub or you could do it using a differen username and password, if you use GitHub it will deploy your project straight from GitHub
+- After signup you can login or skip step 1 and log in, go to your overview where you see a space for projects and on the right side click `Add New`
+- After clicking on `Add New` choose what you are adding, this will be project
+- Then aftering the last step, if you choose GitHub you can choose your repository and click on import
+- You are all done!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built Using
+> React - The framework used
+> 
+> BEM - Naming Convention
+> 
+> CSS - The styling used
+>
+> Vercel - Used to deploy the website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+- Created by [@el634dev](https://github.com/el634dev)
