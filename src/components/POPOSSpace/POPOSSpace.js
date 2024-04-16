@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-    const { name, image, address, desc, hours, id } = props;
+    const { name, image, address, hours, id } = props;
 
     return (
         <div className="POPOSSpace">
@@ -18,7 +18,7 @@ function POPOSSpace(props) {
             {/* Image Link */}
             <Link to={`/details/${id}`}>
                     <img src={`${process.env.PUBLIC_URL}images/${image}`} 
-                        alt={desc}
+                        alt={name}
                         width="300" 
                         height="300" 
             /></Link>
