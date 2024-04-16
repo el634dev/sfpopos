@@ -18,7 +18,7 @@ function Title() {
                 </div>
                 {/************/}
                 <div className='Title-Nav'>
-                    <NavLink aria-label='link' className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/">
+                    <NavLink aria-current='link' className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/">
                         List
                     </NavLink>
                     {/********/}
