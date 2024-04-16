@@ -30,16 +30,18 @@ function POPOSList() {
     // Displaying public spaces
     return (
         <div className="POPOSList">
-           <label for="search">Search</label>
-           <form>
-                <input
-                    value={query}
-                    id="search"
-                    placeholder="Search"
-                    onChange={(e) => setQuery(e.target.value)}
-                />
-                {/* Submit Button */}
-                <button type="submit">Submit</button>
+            <form>
+                <label for='search'>Search</label>
+                <p>
+                    <input
+                        value={query}
+                        id="search"
+                        placeholder="Search"
+                        onChange={(e) => setQuery(e.target.value)}
+                    />
+                    {/* Submit Button */}
+                    <button type="submit">Submit</button>
+                </p>
            </form>
            {/* Spaces */}
            { spaces }
