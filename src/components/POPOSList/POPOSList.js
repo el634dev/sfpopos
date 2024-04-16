@@ -30,8 +30,8 @@ function POPOSList() {
     // Displaying public spaces
     return (
         <div className="POPOSList">
+           <label for="search">Search</label>
            <form>
-                <label for="search"></label>
                 <input
                     value={query}
                     id="search"
