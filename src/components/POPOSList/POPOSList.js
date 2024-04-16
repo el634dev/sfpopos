@@ -31,6 +31,7 @@ function POPOSList() {
     return (
         <div className="POPOSList">
            <form>
+                <label for="search">Search</label>
                 <input
                     value={query}
                     placeholder="Search"
