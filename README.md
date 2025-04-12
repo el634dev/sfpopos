@@ -6,7 +6,7 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-> Web Application where users can search for different public spaces in San Francisco and see the details for each public space
+> Web Application where users can search for different public spaces in San Francisco and see the details for each public space such as benches
 >> Live demo [_here_](https://sfpopos-one.vercel.app/#/).
 
 ## Table of Contents
